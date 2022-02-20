@@ -1,0 +1,256 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/********** PRICING SECTION START ***********/
+
+.pricing{
+    text-align: center;
+    background-color: #f6f9fc;
+}
+
+.pricing-title span{
+    color: #3763eb;
+    position: relative;
+}
+
+.pricing-title span::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #3763eb;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+}
+
+.pricing-title h2{
+    margin-top: 6px;
+    margin-bottom: 25px;
+}
+
+.pricing-title p{
+    color: #7c7c7c;
+}
+
+
+.pricing-box{
+    background-color: #fff;
+    padding: 40px 60px;
+    margin-bottom: 50px;
+    transition: .6s;
+}
+
+.pricing-box h5{
+    transition: 1.4s;
+}
+
+.pricing-box h2{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0 40px 0;
+    font-size: 45px;
+    transition: 1.4s;
+}
+
+.pricing-box p{
+    color: #7c7c7c;
+    line-height: 32px;
+}
+
+.pricing-box .btn:focus{
+    box-shadow: none;
+}
+
+.pricing-box:hover{
+    background-color: #3763eb;
+}
+
+.pricing-box:hover h5,
+.pricing-box:hover h2,
+.pricing-box:hover p{
+    color: #fff;
+}
+
+.pricing-box .btn{
+    overflow: hidden;
+    position: relative;
+    transition: .6s;
+    z-index: 1;
+}
+
+.pricing-box:hover .btn{
+    background-color: #fff;
+    color: #3763eb;
+    border: #3763eb;
+}
+
+.pricing-box a.btn::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: #3763eb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 14px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.pricing-box a.btn:hover{
+    color: #fff;
+}
+
+.pricing-box a.btn:hover::before{
+    width: 100%;
+}
+
+/********** PRICING SECTION END ***********/
+
+/********** LITE SECTION START ***********/
+
+
+.lite{
+    padding: 120px 440px;
+    background: linear-gradient(#3764ebdc , #3764ebdc), url(./img/free-bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.lite span{
+    font-weight: 500;
+    position: relative;
+}
+
+.lite span::after{
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 125px;
+    left: 35px;
+}
+
+.lite h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.lite p{
+    font-weight: 500;
+}
+
+.lite a.btn{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: #3763eb;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.lite a.btn::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: #3763eb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.lite a.btn:hover{
+    color: #fff;
+}
+
+.lite .btn:hover::before{
+    width: 100%;
+}
+
+/********** LITE SECTION END ***********/
+
+/********** NEWSLETTER SECTION START ***********/
+
+.newsletter{
+    padding: 60px 0;
+}
+
+.card.c-1{
+    background-color: #3763eb;
+    color: #fff;
+    padding: 30px;
+}
+
+h5.card-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+p.card-text{
+    font-size: 15px;
+    margin: 16px 0 20px 0;
+}
+
+.card input{
+    width: 100%;
+    padding:5px 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.card .btn{
+    background-color: #3763eb;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.card.c-2{
+    padding: 15px 35px;
+}
+
+
+/********** NEWSLETTER SECTION END ***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
